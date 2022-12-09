@@ -1424,16 +1424,6 @@ a.brand:focus{
   position:relative;
 }
 
-.experience-info div:after{
-  position:absolute;
-  right:100%;
-  content:'';
-  width:5rem;
-  bottom: 0.8rem;
-  height:1px;
-  background: #fff;
-}
-
 .progress-bars{
   margin-top:3rem;
 }
@@ -2215,3 +2205,7 @@ a.brand:focus{
 
 
 
+.sub-number{ 
+  font-size: 13px;
+  opacity: 70%;
+}
