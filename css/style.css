@@ -2209,3 +2209,19 @@ a.brand:focus{
   font-size: 13px;
   opacity: 70%;
 }
+
+.btn-form{ 
+  width: 12rem;
+  height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: transparent;
+  border: 1.6px solid #01cad4;
+  color: #01cad4;
+  transition: 300ms;
+  font-weight: 600;
+}
+
+.btn-form:hover{ 
+  background-color: #01cad4;
+  color: #000;
+}
