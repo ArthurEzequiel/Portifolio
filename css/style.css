@@ -783,7 +783,8 @@ a.brand:focus{
   right: 0;
   width: 100%;
   z-index: 102;
-  background-color: #1b1b1b;
+  background: rgba(26, 26, 26, 0.33);
+  backdrop-filter: blur(30px);
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
   -o-transform: translateX(100%);
