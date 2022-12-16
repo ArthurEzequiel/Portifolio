@@ -111,9 +111,28 @@ body{
     color:#fff;
 }
 
+.p-section{ 
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  opacity: 80%;
+  font-size: 15px;
+  width: 100% ;
+}
+
+#section1{
+  border: #4b4b4b 1px solid;
+  border-radius: 12px;
+margin-bottom: 6rem;
+}
+.section-sec{ 
+  margin: 4rem 10rem;
+  display: grid;
+  place-items: center;
+}
 
 
 /* 1.2 Typography */
+
 
 
 
@@ -1901,7 +1920,7 @@ a.brand:focus{
 }
 .image-holder{
   display:block;
-  margin:12rem auto 7rem;
+  margin:5rem auto 5rem;
   max-width:100%;
 }
 
