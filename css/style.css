@@ -1511,6 +1511,9 @@ background-image:url(/Portifolio/images/bg/background-projects.png);
 
 
 /* 3.5 Section Projects*/
+.section-title{ 
+  color: #01cad4;
+}
 
 .portfolio-container{ 
   display: grid;
