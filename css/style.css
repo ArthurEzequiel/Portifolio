@@ -82,11 +82,11 @@ body {
   letter-spacing: 0.025em;
   line-height: 1.9428;
   color: #717171;
-  background-color: rgb(44, 44, 44);
+  background-color: #0C0C0C;
   -webkit-overflow-scrolling: touch;
 
 
-}
+} 
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -1919,17 +1919,12 @@ outline: 0px;
 
 
 
-.content {
-  padding-top: 17rem;
-}
-
 .row-project {
   margin-bottom: 10rem;
 }
 
 .image-holder {
   display: block;
-  margin: 5rem auto 5rem;
   max-width: 100%;
 }
 
