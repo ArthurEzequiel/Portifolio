@@ -1,57 +1,3 @@
-/* ------------------------------------------------------------------------------
-
-  Template Name: Ramsay
-  Description: Ramsay - Creative Personal Onepage HTML Template
-  Author: Paul_tf
-  Author URI: http://themeforest.net/user/paul_tf
-  Version: 1.0
-  
-  1.  Global
-
-      1.1 General
-      1.2 Typography
-      1.3 Fields
-      1.4 Buttons
-      1.5 Icons
-      1.6 Loader
-      1.7 Helpers
-
-  2.  Navbar 
-
-      2.1 Navbar elements
-      2.2 Sidebar Menu
-      
-  3.  Homepage
-
-      3.1 Sections
-      3.2 Section Specialization
-      3.3 Section Resume
-      3.4 Section About
-      3.5 Section Projects
-      3.6 Section Partners
-      3.7 Section Testimonials
-
-  4. Project Detail
-
-  5. Responsive styles
-
-      5.1 Min width 576px
-      5.2 Min width 768px
-      5.3 Min width 992px
-      5.4 Min height 500px
-      5.5 Min height 600px
-      5.6 Min height 700px
-
-
-
-/*-------------------------------------------------------------------------------
- 1. Global
--------------------------------------------------------------------------------*/
-
-
-
-/* 1.1 General */
-
 
 
 @import url('bootstrap.min.css');
@@ -1318,17 +1264,22 @@ a.brand:focus {
 }
 
 
-.popup-youtube {
-  display: inline-block;
-  color: #fff;
-  font-size: 1.26rem;
+.more-initial{ 
+  font-size: 17px;
+  border-radius: 14px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 500ms;
+  background-color: transparent; border: 1px solid #01cad4; color: #01cad4;
 }
 
-.popup-youtube:hover {
-  text-decoration: none;
+.more-initial:hover { 
+background-color: #01cad4;
+color: #000;
 }
 
-
+.more-initial:focus {
+  outline: none;
+}
 
 /* 3.2 Section Specialization */
 
@@ -1646,11 +1597,14 @@ a.brand:focus {
 }
 
 .project-part {
-    height: 43.125rem
+    height: 43.125rem; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;width: 85%; margin-bottom: 8rem; border-radius: 14px;
+    border: 1px solid rgb(36, 36, 36);
   }
 
 .bn-port-primary {
-  width: 210px;
+  width: 250px;
+  border-radius: 14px;
   height: 63px;
   background-color: transparent;
   border: 1px solid #FFFFFF;
@@ -1674,7 +1628,8 @@ outline: 0px;
   border: none;
   background-color: #1d1d1d;
   color: #fff;
-  width: 210px;
+  width: 250px;
+  border-radius: 14px;
   height: 63px;
   font-weight: 600;
   transition: 500ms;
