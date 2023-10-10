@@ -101,6 +101,11 @@ body {
   place-items: center;
 }
 
+
+.span-desc-project{ 
+  color: #000;
+}
+
 /* 1.2 Typography */
   
 
@@ -445,7 +450,7 @@ label.error {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #1b1b1b;
+  background: #E7E7E7;
   color: #4b4b4b;
   text-align: center;
 }
@@ -468,7 +473,7 @@ label.error {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #4C858D;
+  background-color: #1B1B1B;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -1481,6 +1486,10 @@ color: #ffffff;
   outline: none;
 }
 
+.button-previous:focus {
+  outline: none;
+}
+
 /* 3.2 Section Specialization */
 
 
@@ -1589,6 +1598,46 @@ color: #ffffff;
   justify-content: center;
 }
 
+.project-img-project{ 
+  display: grid;
+  place-items: start;
+  gap: 2rem;
+  padding: 0 10rem;
+  grid-template-columns: auto auto;
+  margin-bottom: 6rem;
+  width: 100%;
+  /* align-items: start;
+  justify-content: center; */
+}
+
+.span-desc-project{ 
+  font-size: 20px;
+  margin-top: 4rem;
+}
+
+.btn-preview{ 
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.button-previous{ 
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 100%;
+  transition: 500ms;
+}
+
+.button-previous:hover{ 
+  background-color: #000;
+  color: #fff;
+}
+
 .device-img-pc{ 
   max-width: 80%;
   /* border: 1px solid #000; */
@@ -1603,8 +1652,19 @@ color: #ffffff;
   box-shadow: 12px 26px 38px 0px rgba(0, 0, 0, 0.15);
 }
 
+.device-img-mobile-project{ 
+  /* border: 1px solid #000; */
+  border-radius: 15px;
+  max-width: 100%;
+  box-shadow: 12px 26px 38px 0px rgba(0, 0, 0, 0.15);
+}
+
 .device-img{ 
   width: 100%;
+}
+
+.device-img-mobile-project{ 
+  width: 80%;
 }
 
 
