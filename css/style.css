@@ -1187,7 +1187,7 @@ a.brand:focus {
   color: #000;
   line-height: normal;
 
-  margin: 20rem 0;
+  margin: 18rem 0;
 }
 
 .about-me-span{ 
@@ -2552,14 +2552,13 @@ outline: 0px;
     flex-direction: column-reverse;
   }
 
-  .device-img-pc {
-    max-width: 100%;
+  .device-img-pc { 
+  display: none;
 
 }
 
 .device-img-mobile {
-
-  display: none;
+  max-width: 80%;
 } 
 
 .navbar-fixed .navbar-bg{ 
@@ -2569,8 +2568,8 @@ outline: 0px;
 }
 
 .span-description{ 
-  font-size: 1rem;
-  margin: 3rem 0;
+  font-size: 1.5rem;
+  margin: 5rem 0;
   width:100%; 
   text-align: start;
 }
@@ -2578,6 +2577,8 @@ outline: 0px;
 .project-img{ 
   margin-bottom: 0
   ;
+  display: grid;
+  place-items: center;
   
 }
 
