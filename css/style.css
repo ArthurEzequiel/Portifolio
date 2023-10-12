@@ -2710,6 +2710,15 @@ outline: 0px;
     margin-top: 5rem;
   }
 
+  .cursor-outline{ 
+    display: none;
+  }
+  
+  .cursor-outline,.cursor-dot{
+    display: none; 
+
+  }
+
 
 }
 
