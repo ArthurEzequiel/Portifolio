@@ -32,9 +32,34 @@ body {
   color: #717171;
   background-color: #E7E7E7;
   -webkit-overflow-scrolling: touch;
-
+  cursor: none;
 
 } 
+
+.cursor-dot{ 
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+}
+
+
+.cursor-outline{ 
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+.cursor-outline,.cursor-dot{ 
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%) ;
+  border-radius: 50%;
+  z-index: 9999;
+}
+
+
 
 .hero{ 
   right: 10px;
@@ -2686,4 +2711,9 @@ outline: 0px;
   }
 
 
+}
+
+
+button{ 
+  cursor: none;
 }
