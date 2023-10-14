@@ -75,6 +75,10 @@ body {
   display: grid; place-items: center;
 }
 
+.img-section{
+  display: grid; 
+  gap: 3rem;
+}
 
 ::-webkit-scrollbar {
   width: 5px;
