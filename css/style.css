@@ -2730,3 +2730,12 @@ outline: 0px;
 button{ 
   cursor: none;
 }
+
+
+.project-img {
+  transition: transform 1.5s; /* Adiciona uma transição suave */
+}
+
+.project-img:hover {
+  transform: translateY(-10px); /* Move a div 10 pixels para cima ao passar o mouse */
+}
