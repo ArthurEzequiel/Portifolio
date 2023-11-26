@@ -2265,6 +2265,93 @@ outline: 0px;
 }
 
 
+button{ 
+  cursor: none;
+}
+
+
+.about-perfil-span{ 
+  font-family: 'Kodchasan', sans-serif;
+}
+
+
+.about-section-main{ 
+  color: #000000;
+}
+
+.span-section-about-section{ 
+  width: 80%;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+}
+
+
+
+
+.card-part{ 
+  width: 90%;
+  font-size: 16px;
+  margin-top: 10rem;
+  display: grid; 
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  gap: 5rem;
+}
+
+.container-about{ 
+  display: grid;
+  place-items: center;
+  gap: 5rem;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-family: Kodchasan;
+}
+.cantainer-img{ 
+  width: 13rem;
+  opacity: 65%;
+}
+
+.cv-download{ 
+  margin-top: 35rem;
+  margin-bottom: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: end;
+}
+
+.cv-text{ 
+  font-weight: 800;
+  font-size: 46px;
+  font-family: Kodchasan;
+  opacity: 65%;
+}
+
+.button-cv{ 
+  background-color: #000;
+  border-radius: 13px;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  color: #fff;
+  gap: 2rem;
+  outline: none;
+  border: none;
+  font-family: Kodchasan;
+}
+
+.button-text-cv{ 
+  margin-right: 1rem;
+}
+
+.about-section-main{ 
+  display: grid;
+  place-items: center;
+}
+
+
 /* ------------------------------------------------------------------------------- */
 /*  5. Responsive styles
 /* ------------------------------------------------------------------------------- */
@@ -2529,6 +2616,10 @@ outline: 0px;
     padding: 2rem;
   }
 
+  .about-section-main{ 
+    display: block;
+  }
+
 
 }
 
@@ -2571,6 +2662,10 @@ outline: 0px;
 
   .section-bg{ 
     background-size: inherit;
+  }
+
+  .about-section-main{ 
+    display: block;
   }
 
   .left-row{ 
@@ -2684,7 +2779,14 @@ outline: 0px;
   .btn-preview{ 
     gap: 2rem;
   }
+
+  .about-section-main{ 
+    display: block;
+  }
 }
+
+
+
 
 
 @media only screen and (max-width: 420px) { 
@@ -2723,10 +2825,15 @@ outline: 0px;
 
   }
 
+  .about-section-main{ 
+    display: block;
+  }
+
+  .card-part{
+    display: flex;
+    flex-direction: column;
+  }
 
 }
 
 
-button{ 
-  cursor: none;
-}
