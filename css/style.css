@@ -2835,20 +2835,3 @@ font-style: normal;
   }
 
 }
-
-
-<<<<<<< HEAD
-=======
-button{ 
-  cursor: none;
-}
-
-
-.project-img {
-  transition: transform 1.5s; /* Adiciona uma transição suave */
-}
-
-.project-img:hover {
-  transform: translateY(-10px); /* Move a div 10 pixels para cima ao passar o mouse */
-}
->>>>>>> a4f5a0121f74784ca6da03166aaf55a3dca9ef56
