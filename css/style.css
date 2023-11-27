@@ -2340,6 +2340,13 @@ font-style: normal;
   outline: none;
   border: none;
   font-family: Kodchasan;
+  transition: 500ms;
+  
+  
+}
+
+.button-cv:hover{ 
+  background-color: #2e2e2e;
 }
 
 .button-text-cv{ 
