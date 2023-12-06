@@ -288,6 +288,7 @@ a:focus {
 
 .sub-title-main {
   font-family: 'Kodchasan', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -2644,9 +2645,17 @@ margin: 8rem 0 0 0;
     margin-right: 10rem;
   }
 
+  .text-type{ 
+    font-size: 35px;
+  }
+
   .sub-back{ 
     display: grid;
      place-items: center;
+  }
+
+  .sub-title-main{ 
+    font-size: 13px;
   }
 
   .project-part {
@@ -2654,10 +2663,6 @@ margin: 8rem 0 0 0;
   }
 }
 
-@media screen and (max-height: 500px) {
-
-
-}
 
 
 
