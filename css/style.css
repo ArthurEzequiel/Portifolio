@@ -2647,6 +2647,7 @@ margin: 8rem 0 0 0;
 
   .text-type{ 
     font-size: 35px;
+    max-width: fit-content;
   }
 
   .sub-back{ 
