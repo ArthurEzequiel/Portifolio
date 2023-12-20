@@ -1628,6 +1628,8 @@ color: #ffffff;
   justify-content: center;
 }
 
+
+
 .project-img-project{ 
   display: grid;
   place-items: start;
@@ -1685,6 +1687,7 @@ color: #ffffff;
   /* border: 1px solid #000; */
   border-radius: 15px;
   box-shadow: 12px 26px 38px 0px rgba(0, 0, 0, 0.15);
+  transition: 3000ms;
 }
 
 .device-img-mobile{ 
@@ -2876,4 +2879,11 @@ margin: 8rem 0 0 0;
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(104, 104, 104); }
+}
+
+
+
+
+.device-img-pc:hover{ 
+  transform: translateY(-10px);
 }
