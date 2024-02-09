@@ -747,9 +747,19 @@ label.error {
   width: 100%;
 }
 
+.end-first-span{ 
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 25px;
+  color: #0000009f;
+  
+}
+
 .end-span{ 
-  font-size: 60px;
-  color: rgba(0, 0, 0, 0.64);
+  font-size: 50px;
+  line-height: 2rem;
+  margin-bottom: 2.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
     font-family: 'Kodchasan', sans-serif;
 }
 
@@ -1589,7 +1599,7 @@ font-size: 18px;
   font-family: 'Kodchasan', sans-serif;
   font-size: 5rem;
   line-height: 1;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.4rem;
   margin: 0;
 }
 
@@ -2448,7 +2458,7 @@ margin: 4rem 0 0 0;
 }
 
 .cv-download{ 
-  margin-top: 25rem;
+  margin-top: 20rem;
   margin-bottom: 10rem;
   width: 100%;
   display: flex;
