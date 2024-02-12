@@ -90,6 +90,10 @@ body {
   flex-direction: row;
 }
 
+.perfil-section,.left-side,.right-side{ 
+  cursor: none;
+}
+
 .more-area{ 
   margin: 30rem 0 7rem 0;
   display: flex;
@@ -100,6 +104,12 @@ body {
   border-radius: 33px;
   padding: 10rem 10rem;
 
+}
+
+.gtt{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .more-area-more{ 
@@ -158,6 +168,8 @@ body {
   border-radius: 20px;
   border: none; 
   color: #000;
+  display: flex;
+  justify-content: center;
   font-family: 'kodchasan', sans-serif;
   transition: 2s;
 }
@@ -2603,6 +2615,10 @@ margin: 4rem 0 0 0;
   }
 
 
+  .end-span{ 
+    line-height: 3rem;
+  }
+
 
   /* Sidebar Menu */
 
@@ -2770,6 +2786,19 @@ margin: 4rem 0 0 0;
   .about-section-main{ 
     display: block;
   }
+  .perfil-section{ 
+    flex-direction: column;
+  }
+
+  .left-side{ 
+    width: 100%;
+  }
+
+  .more-area-more{ 
+    padding: 0;
+  }
+
+
 
 
 }
@@ -2777,7 +2806,7 @@ margin: 4rem 0 0 0;
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 595px) {
 
   .project-sub{ 
     margin-left: 0rem; 
@@ -2801,6 +2830,10 @@ margin: 4rem 0 0 0;
   .project-part {
     height: 55.125rem
   }
+
+  .right-side{ 
+    width: 100%;
+  }
 }
 
 
@@ -2814,7 +2847,7 @@ margin: 4rem 0 0 0;
 
 
 
-@media only screen and (max-width: 760px) { 
+@media only screen and (max-width: 770px) { 
 
   .section-bg{ 
     background-size: inherit;
@@ -2835,6 +2868,10 @@ margin: 4rem 0 0 0;
   .device-img-pc { 
   display: none;
 
+}
+
+.end-span{ 
+  line-height: 3rem;
 }
 
 .device-img-mobile {
